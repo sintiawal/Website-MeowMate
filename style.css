@@ -1,0 +1,163 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url('bg3.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  background-attachment: fixed; /* Agar gambar tidak ikut scroll */
+
+}
+section {
+  background-color: rgba(255, 255, 255, 0.8); /* Putih transparan */
+  padding: 20px;
+  border-radius: 12px;
+}
+
+
+header {
+  background-color: #ece5de;
+  padding: 20px;
+  text-align: center;
+  color: #5f523f;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+nav a {
+  margin: 0 10px;
+  color: #f0b460;
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
+}
+
+.card {
+  background-color: #ece5de;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  margin: 15px;
+  padding: 20px;
+  width: 280px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+button {
+  background-color: #5f523f;
+  color: #f0b460;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #946947;
+}
+#formAdopsi {
+  display: none; /* Form disembunyikan saat awal */
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 500px;
+  background-color: #CCB5A1;
+  border-radius: 12px;
+}
+#uploadKucing, #review, #kontak {
+  padding: 20px;
+  margin: 40px auto;
+  max-width: 500px;
+  background-color: #CCB5A1;
+  border-radius: 12px;
+}
+
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #f0b460;
+  border-radius: 5px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #ece5de;
+  color: #5f523f;
+  margin-top: 30px;
+}
+
+/* Modal Login */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 20;
+  left: 0; top: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content {
+  background-color: #CCB5A1;
+  margin: 10% auto;
+  padding: 20px;
+  width: 300px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+
+#uploadKucing {
+  background-image: url('icon3.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 40px 20px;
+  color: #946947;
+}
+
+#review {
+  background-image: url('bg5.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 40px 20px;
+  color: #946947;
+}
+
+#kontak {
+  background-image: url('bg4.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 40px 20px;
+  color: #946947;
+}
+
+#loginModal {
+  background-image: url('bg-login.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.close {
+  float: right;
+  font-size: 20px;
+  cursor: pointer;
+}
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #f0b460;
+  border-radius: 5px;
+  resize: vertical;
+}
